@@ -1,6 +1,7 @@
 package kiet.dev;
 
-public class Shape {
-
-	public String name;
+public abstract class Shape {
+	private String name;
+	public abstract double Dientich();
+	
 }
